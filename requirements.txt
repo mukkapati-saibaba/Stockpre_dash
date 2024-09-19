@@ -1,6 +1,12 @@
-numpy==1.24.2
-pandas==1.5.0
-dash==2.3.1
-gunicorn==20.1.0
-jupyter-dash==0.4.0
-werkzeug==2.0.3  # Pin the compatible version of werkzeug
+numpy==1.24.2               # For numerical computations
+pandas==1.5.0               # For handling dataframes
+dash==2.3.1                 # Main dashboard library
+gunicorn==20.1.0            # Web server for production
+jupyter-dash==0.4.0         # To integrate Dash with Jupyter
+werkzeug==2.0.3             # Fix for werkzeug compatibility issue
+xgboost==1.6.2              # For the XGBoost model
+statsmodels==0.13.5         # For SARIMAX model (time series)
+scikit-learn==1.2.2         # For machine learning models like train_test_split, etc.
+matplotlib==3.6.2           # For additional plotting needs (if any)
+plotly==5.11.0              # For generating interactive plots
+pandas-ta==0.3.14b0         # For MACD and RSI (Pandas Technical Analysis library)
